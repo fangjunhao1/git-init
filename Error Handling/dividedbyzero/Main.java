@@ -5,7 +5,7 @@ public class Main {
         try {
             int result = divideByZero();
             System.out.println("Result: " + result);
-        } catch (Exception e) {
+        } catch (ArithmeticException e) {
             System.out.printf("Caught runtime exception = %s\n", e.getMessage());
         }
     }
